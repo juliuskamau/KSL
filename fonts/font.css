@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'EpocaClassic-Regular';
+  src: url('EpocaClassic-Regular.eot');
+  src: url('EpocaClassic-Regular.woff2') format('woff2'),
+       url('EpocaClassic-Regular.woff') format('woff'),
+       url('EpocaClassic-Regular.ttf') format('truetype'),
+       url('EpocaClassic-Regular.svg#EpocaClassic-Regular') format('svg'),
+       url('EpocaClassic-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
