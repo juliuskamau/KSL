@@ -33,12 +33,22 @@ ACTIVELINKS = {
 
 
 
-SNOW = {
-    bindSnow: function () {
+MARQUEE = {
+    bindMarquee: function () {
    
-        $(document).ready( function(){
-            $.fn.snow();
-        });
+        marqueeInit({ 
+            uniqueid: 'mycrawler23', 
+            style: { 
+                'padding': '0px', 
+                 
+                'height': '25px' 
+            }, 
+            inc: 5, //speed - pixel increment for each iteration of this marquee's movement 
+            mouse: 'cursor driven', //mouseover behavior ('pause' 'cursor driven' or false) 
+            moveatleast: 2, 
+            neutral: 150, 
+            savedirection: true 
+        }); 
         
     }
 };
@@ -46,7 +56,7 @@ SNOW = {
 
 var onLoad = function () {
     ACTIVELINKS.bindActiveLinks();
-    SNOW.bindSnow();
+    MARQUEE.bindMarquee();
     LOADER.bindLoader();
    
  
