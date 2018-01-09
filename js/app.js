@@ -53,12 +53,50 @@ MARQUEE = {
     }
 };
 
+SEARCHICON = {
+    bindSearchIcon: function () {
+   
+        $(document).ready(function(){
+           $(".search_icon_mobile").click(function(){
+                $(".mobile_input_search").toggle();
+            });
+        });           
+    }
+};
+
+
+GOOLEMAP = {
+    bindGoogleMap: function () {
+        function initialize() {
+            var map_canvas = document.getElementById('map_canvas');
+            var map_options = {
+              center: new google.maps.LatLng(-1.288966, 36.826475),
+              zoom: 14,
+              mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            var map = new google.maps.Map(map_canvas, map_options)
+            var LatLng = new google.maps.LatLng(-1.288966, 36.826475);
+            var marker = new google.maps.Marker({
+                position: LatLng,
+                title: 'Premier Water Solutions Ltd',
+                map: map
+              });
+          }
+          google.maps.event.addDomListener(window, 'load', initialize);
+               
+    }
+};
+
+
+
+
 
 var onLoad = function () {
     ACTIVELINKS.bindActiveLinks();
     MARQUEE.bindMarquee();
     LOADER.bindLoader();
-   
+    SEARCHICON.bindSearchIcon();
+    GOOLEMAP.bindGoogleMap();
  
 };
 
