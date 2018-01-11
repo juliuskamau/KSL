@@ -14,22 +14,29 @@
     <!-- mobileinav -->
     <div class="off-canvas position-right" data-off-canvas="" id="offCanvasRight1">
       <ul class="vertical menu">
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#">Leaderboard</a>
-        </li>
-        <li>
-          <a href="#">Co-op Bank Services</a>
-        </li>
-        <li>
-          <a href="#">Prizes</a>
-        </li>
+	
+					<li>
+							<a class="active" href="index.html">home</a>
+						</li>
+						<li>
+							<a href="html/About_us.html">about us</a>
+						</li>
+						<li>
+							<a href="html/what_we_do.html">what we do</a>
+						</li>
+						<li>
+							<a href="html/How_to.html">how to</a>
+						</li>
+						<li>
+							<a href="html/Research.html">research</a>
+						</li>
+			
       </ul>
     </div><!-- mobileinavend -->
     <div class="off-canvas-content" data-off-canvas-content="">
-      <header>
+
+
+      <header class="sticky" data-margin-top="0" data-sticky="">
         <div class="header-top panel">
           <div class="grid-container">
             <ul class="inline margin-0 right">
@@ -37,13 +44,13 @@
                 <a href="#">Updates</a>
               </li>
               <li>
-                <a href="#">Support</a>
+                <a href="Support.html">Support</a>
               </li>
               <li>
-                <a href="#">Contact Us</a>
+                <a href="contact_us.html">Contact Us</a>
               </li>
               <li>
-                <a href="#">Co-op Main Site</a>
+                <a href="https://www.co-opbank.co.ke/" target="_blank">Co-op Main Site</a>
               </li>
               <li class="hide-for-small-only">
                 <a class="button small" href="#">ONLINE TRADING</a>
@@ -51,16 +58,16 @@
             </ul>
           </div><!-- grid-container -->
         </div><!---top header-->
-        <div class="header-bottom panel">
+        <div class="header-bottom panel sticky">
           <div class="grid-container">
             <div class="grid-x grid-padding-x">
-              <div class="small-8 medium-3 large-3 cell">
+              <div class="small-8 medium-2 large-3 cell">
 				  <img alt="co-op" src="images/logo.png" class="logo">
 				</div><!-- small-8 medium-4 large-3 cell -->
 			  
 			  <div class="small-4 medium-3 large-3 show-for-small-only cell">
 				  <!--- mobile icon -->
-					<button class="button right" data-toggle="offCanvasRight1" type="button" aria-expanded="false" aria-controls="offCanvasRight1">
+					<button class="button right mobile-icon" data-toggle="offCanvasRight1" type="button" aria-expanded="false" aria-controls="offCanvasRight1">
 		
 							<div class="right">
 								<i aria-hidden="true" class="fa fa-bars"></i>
@@ -78,26 +85,26 @@
 
 			</div><!-- small-8 medium-4 large-3 cell -->
 			  
-			  <div class="small-12 medium-5 large-5 cell hide-for-small-only">
+			  <div class="small-12 medium-10 large-5 cell hide-for-small-only">
                 <ul class="inline">
                   <li>
-                    <a class="active" href="#">home</a>
+                    <a class="active" href="index.html">home</a>
                   </li>
                   <li>
-                    <a href="#">about us</a>
+                    <a href="html/About_us.html">about us</a>
                   </li>
                   <li>
-                    <a href="#">what we do</a>
+                    <a href="html/what_we_do.html">what we do</a>
                   </li>
                   <li>
-                    <a href="#">how to</a>
+                    <a href="html/How_to.html">how to</a>
                   </li>
                   <li>
-                    <a href="#">research</a>
+                    <a href="html/Research.html">research</a>
                   </li>
                 </ul>
               </div><!-- small-8 medium-4 large-3 cell -->
-              <div class="small-12 medium-4 large-4 cell relative hide-for-small-only">
+              <div class="small-12 medium-3 large-4 cell relative hide-for-small-only hide-for-medium-only">
                 <input placeholder="Enter search word" type="text"> <a class="search_icon" href="#"></a>
               </div><!-- small-8 medium-4 large-3 cell -->
             </div><!---grid-x grid-padding-x-->
@@ -146,8 +153,8 @@
 
 
         <div class="grid-x grid-padding-x">
-          <div class="small-12 medium-8 large-8 cell">
-			<div class="panel banner">
+          <div class="small-12 medium-12 large-8 cell">
+			<div class="panel banner delay-xs"data-anijs="if: scroll, on: window, do: fadeInUp animated, before: scrollReveal" >
 			
 			
 			
@@ -162,7 +169,10 @@
 						  <ul class="orbit-container">
 							<li class="is-active orbit-slide">
 							  <figure class="orbit-figure cap-bot">
-								<img class="orbit-image" src="https://placehold.it/1200x600/CCCCCC?text=Slide-1" alt="Space">
+										<div class="imgLiquidFill imgLiquid" style="height:417px;">
+												<img class="orbit-image" src="https://placehold.it/1200x600/CCCCCC?text=Slide-1" alt="Space">	
+										</div>
+
 								<figcaption class="orbit-caption">
 									<h1>ONLINE SHARE TRADING</h1>	
 									<p>
@@ -176,7 +186,10 @@
 							</li>
 							 <li class="orbit-slide">
 							  <figure class="orbit-figure cap-bot">
-								<img class="orbit-image" src="https://placehold.it/1200x600/CCCCCC?text=Slide-2" alt="Space">
+										<div class="imgLiquidFill imgLiquid" style="height:417px;">
+												<img class="orbit-image" src="https://placehold.it/1200x600/CCCCCC?text=Slide-1" alt="Space">	
+										</div>
+
 								<figcaption class="orbit-caption">
 										<h1>ONLINE SHARE TRADING</h1>	
 										<p>
@@ -206,8 +219,8 @@
 			
 
           </div><!---small-12 medium-8 large-8 cell-->
-          <div class="small-12 medium-4 large-4 cell">
-            <div class="sidebar-banner ">
+          <div class="small-12 medium-12 large-4 cell">
+            <div class="sidebar-banner delay-sm" data-anijs="if: scroll, on: window, do: fadeInUp animated, before: scrollReveal">
 
 <div class="panel background_white">
 		<div class="grid-x grid-padding-x">
@@ -282,27 +295,28 @@
 
 
 				<div class="panel">
-						<div class="grid-x grid-padding-x">
-								<div class="small-7 medium-7 large-7 cell">
-					
-									<p>
-											TCL
-									</p>
-										
-										
-								</div>
-								<div class="small-2 medium-2 large-2 cell">
-								<p>21.25</p>		
-										
-								</div>
-								<div class="small-2 medium-3 large-3 cell">
-										<div class="button left">
-												+9.02
-										</div>	
-										<i class="fa fa-chevron-up" aria-hidden="true" class="right"></i>	
-								</div>
+					<div class="grid-x grid-padding-x">
+							<div class="small-7 medium-7 large-7 cell">
+				
+								<p>
+										TCL
+								</p>
+									
+									
+							</div>
+							<div class="small-2 medium-2 large-2 cell">
+							<p>6.65</p>		
+									
+							</div>
+							<div class="small-3 medium-3 large-3 cell">
+								<div class="button left">
+										+9.02
+								</div>	
+								<i class="fa fa-chevron-up" aria-hidden="true"></i>
+								
 							</div>
 						</div>
+					</div>
 
 						<div class="panel background_white">
 								<div class="grid-x grid-padding-x">
@@ -463,7 +477,7 @@
           </div><!---small-12 medium-4 large-4 cell-->
         </div><!-- grid-x grid-padding-x-->
         <div class="grid-x grid-padding-x"data-equalizer>
-          <div class="small-12 medium-4 large-4 cell">
+          <div class="small-12 medium-12 large-4 cell delay-xs" data-anijs="if: scroll, on: window, do: fadeInLeft animated, before: scrollReveal">
 			  <div class="title">
 				  <span class="finacial">
 
@@ -506,7 +520,7 @@
           </div><!---small-12 medium-4 large-4 cell-->
 	 
 		  
-          <div class="small-12 medium-4 large-4 cell">
+          <div class="small-12 medium-12 large-4 cell delay-sm" data-anijs="if: scroll, on: window, do: fadeInLeft animated, before: scrollReveal">
 				<div class="title">
 					<span class="research">
   
@@ -561,7 +575,7 @@
 			  </div>
 			</div><!---small-12 medium-4 large-4 cell-->
 
-			<div class="small-12 medium-4 large-4 cell">
+			<div class="small-12 medium-12 large-4 cell delay-md" data-anijs="if: scroll, on: window, do: fadeInLeft animated, before: scrollReveal">
 					
 					<div class="green title">
 							<span class="what-we-do">
@@ -607,14 +621,15 @@
 				</div><!---small-12 medium-4 large-4 cell-->
         </div><!-- grid-x grid-padding-x-->
         <div class="grid-x grid-padding-x">
-          <div class="small-12 medium-3 large-3 cell">
+          <div class="small-12 medium-12 large-3 cell delay-xs" data-anijs="if: scroll, on: window, do: fadeInLeft animated, before: scrollReveal">
 		
 				
 				<figure class="effect-overlay">
-					
-						<img alt="co-op" src="images/online-image.png">
+					<div class="imgLiquidFill imgLiquid" style="height:310px;">
+								<img alt="co-op" src="images/online-image.png">
+						</div>
 						<figcaption>
-								<span class="online"></span>
+								<span class="online" data-anijs="if: scroll, on: window, do: rotate animated, before: scrollReveal; if: load, on: window, do: rubberBand animated; if: mouseover, do: rubberBand animated" src="images/step03.png" ></span>
 							<h2>ONLINE TRADING</h2>
 							<div class="hover-caption">
 							<p>Lorem Ipsum is simply dummy text of the printing and</p>
@@ -625,12 +640,14 @@
 			
 		
           </div><!---small-12 medium-3 large-3 cell-->
-          <div class="small-12 medium-3 large-3 cell">
+          <div class="small-12 medium-12 large-3 cell delay-sm" data-anijs="if: scroll, on: window, do: fadeInLeft animated, before: scrollReveal">
 				<figure class="effect-overlay">
 						
-							<img alt="co-op" src="images/online-image.png">
+					<div class="imgLiquidFill imgLiquid" style="height:310px;">
+						<img alt="co-op" src="images/online-image.png">
+				</div>
 							<figcaption>
-									<span class="online"></span>
+									<span class="how-to" data-anijs="if: scroll, on: window, do: rotate animated, before: scrollReveal; if: load, on: window, do: rubberBand animated; if: mouseover, do: rubberBand animated" src="images/step03.png" ></span>
 								<h2>ONLINE TRADING</h2>
 								<div class="hover-caption">
 								<p>Lorem Ipsum is simply dummy text of the printing and</p>
@@ -640,13 +657,15 @@
 						</figure> 
 			
           </div><!---small-12 medium-3 large-3 cell-->
-          <div class="small-12 medium-3 large-3 cell">
+          <div class="small-12 medium-12 large-3 cell delay-md" data-anijs="if: scroll, on: window, do: fadeInLeft animated, before: scrollReveal">
 		   
 				<figure class="effect-overlay">
 						
-							<img alt="co-op" src="images/online-image.png">
+					<div class="imgLiquidFill imgLiquid" style="height:310px;">
+						<img class="orbit-image" src="https://placehold.it/1200x600/CCCCCC?text=Slide-1" alt="Space">
+				</div>
 							<figcaption>
-									<span class="online"></span>
+									<span class="support" data-anijs="if: scroll, on: window, do: rotate animated, before: scrollReveal; if: load, on: window, do: rubberBand animated; if: mouseover, do: rubberBand animated" src="images/step03.png"></span>
 								<h2>ONLINE TRADING</h2>
 								<div class="hover-caption">
 								<p>Lorem Ipsum is simply dummy text of the printing and</p>
@@ -656,20 +675,20 @@
 						</figure>
 
           </div><!---small-12 medium-3 large-3 cell-->
-          <div class="small-12 medium-3 large-3 cell">
+          <div class="small-12 medium-12 large-3 cell delay-lg " data-anijs="if: scroll, on: window, do: fadeInLeft animated, before: scrollReveal">
 			
-				<figure class="effect-overlay">
-						
-							<img alt="co-op" src="images/online-image.png">
-							<figcaption>
-									<span class="online"></span>
-								<h2>ONLINE TRADING</h2>
-								<div class="hover-caption">
-								<p>Lorem Ipsum is simply dummy text of the printing and</p>
-								<a class="button " href="#">Read More</a>
-							</div>
-							</figcaption>			
-						</figure>
+		<figure class="subscribe">
+			<span class="subscribe">
+
+			</span>
+
+			<p>
+					Subscribe to recieve daily<br> market reviews
+				</p>
+
+			<input placeholder="Enter email address" type="text">
+			<input class="button full_width" type="submit" value="SUBMIT QUERY">
+		</figure>
 
           </div><!---small-12 medium-3 large-3 cell-->
         </div><!-- grid-x grid-padding-x-->
@@ -750,16 +769,16 @@
                 Tel. 020 3276676<br>
                 E: info@kingdomsecurities.co.ke<br></p>
                 <ul class="social-icon inline">
-                  <li class="facebook">
+                  <li class="facebook" data-anijs="if: scroll, on: window, do: rotate animated, before: scrollReveal; if: load, on: window, do: rubberBand animated; if: mouseover, do: rubberBand animated" src="images/step03.png" >
                     <a href="#"><i aria-hidden="true" class="fa fa-facebook"></i></a>
                   </li>
-                  <li class="instagram">
+                  <li class="instagram" data-anijs="if: scroll, on: window, do: rotate animated, before: scrollReveal; if: load, on: window, do: rubberBand animated; if: mouseover, do: rubberBand animated" src="images/step03.png" >
                     <a href="#"><i aria-hidden="true" class="fa fa-instagram"></i></a>
                   </li>
-                  <li class="twitter">
+                  <li class="twitter" data-anijs="if: scroll, on: window, do: rotate animated, before: scrollReveal; if: load, on: window, do: rubberBand animated; if: mouseover, do: rubberBand animated" src="images/step03.png" >
                     <a href="#"><i aria-hidden="true" class="fa fa-twitter"></i></a>
                   </li>
-                  <li class="linkedin">
+                  <li class="linkedin" data-anijs="if: scroll, on: window, do: rotate animated, before: scrollReveal; if: load, on: window, do: rubberBand animated; if: mouseover, do: rubberBand animated" src="images/step03.png" >
                     <a href="#"><i aria-hidden="true" class="fa fa-linkedin"></i></a>
                   </li>
                 </ul>
@@ -769,7 +788,7 @@
 
 <!--- footer mobile accordion start -->
 
-<ul class="accordion show-for-small-only" data-accordion data-deep-link="true" data-update-history="true" data-deep-link-smudge="true" data-deep-link-smudge-delay="500" id="deeplinked-accordion">
+<ul class="accordion show-for-small-only" data-accordion data-deep-link="true" data-update-history="true" data-deep-link-smudge="true" data-deep-link-smudge-delay="500" id="deeplinked-accordion"data-allow-all-closed="true">
 		<li class="accordion-item" data-accordion-item>
 		  <a href="#deeplink1" class="accordion-title">ABOUT US</a>
 		  <div class="accordion-content" data-tab-content id="deeplink1">
@@ -893,21 +912,16 @@
       </footer>
     </div>
   </div><!--- off-canvas-wrapper -->
-  <!--
+  
 
 
     <div id="loader-wrapper">
         <div class="loader">
-            <img alt="co-op" src="images/loader.png">
-            <div class="text-container">
-                <h1>The best is yet to come</h1>
-                <h2 class="happy">Happy Holidays</h2>
-            </div>
-            <div class="snake">
-                <span></span> <span></span> <span></span> <span></span> <span></span>
-            </div>
+            <img alt="co-op" src="images/logo.png">
+
+						<div class="pulse"></div>
         </div>
-    </div>-->
+    </div>
   <script src="js/vendor/jquery.js">
   </script> 
   <script src="js/vendor/fontawesome.js">
@@ -919,7 +933,11 @@
   <script src="js/vendor/anijs-helper-scrollreveal-min.js">
   </script> 
     <script src="js/vendor/crawler.js">
-	</script> 
+	</script>  
+	    <script src="js/vendor/imgLiquid-min.js">
+			</script>
+					    <script src="js/vendor/imgLiquid-min.js">
+							</script>
   <script src="js/app.js">
   </script>
 </body>

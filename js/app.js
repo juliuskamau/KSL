@@ -89,6 +89,17 @@ GOOLEMAP = {
 
 
 
+IMAGECROPPER = {
+    bindImageCropper: function () {
+   
+        $(document).ready(function () {
+            $(".imgLiquidFill").imgLiquid({fill:true});
+            $(".imgLiquidNoFill").imgLiquid({fill:false});
+        });
+        
+    }
+};
+
 
 
 var onLoad = function () {
@@ -96,7 +107,9 @@ var onLoad = function () {
     MARQUEE.bindMarquee();
     LOADER.bindLoader();
     SEARCHICON.bindSearchIcon();
+    IMAGECROPPER.bindImageCropper();
     GOOLEMAP.bindGoogleMap();
+    
  
 };
 
