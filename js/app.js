@@ -1,5 +1,4 @@
-
-   LOADER = {
+ LOADER = {
     bindLoader: function () {
    
         $(document).ready(function() {
@@ -7,7 +6,7 @@
              // Fakes the loading setting a timeout
                setTimeout(function() {
                    $('body').addClass('loaded');
-               }, 3500);
+               }, 4000);
             
            });
         
@@ -93,9 +92,14 @@ IMAGECROPPER = {
     bindImageCropper: function () {
    
         $(document).ready(function () {
-            $(".imgLiquidFill").imgLiquid({fill:true});
-            $(".imgLiquidNoFill").imgLiquid({fill:false});
+            if ($(".imgLiquidFill").length) {
+                $(".imgLiquidFill").imgLiquid({ fill: true });
+            }
+            if ($(".imgLiquidNoFill").length) {
+                $(".imgLiquidNoFill").imgLiquid({ fill: false });
+            }
         });
+        
         
     }
 };
@@ -109,6 +113,7 @@ var onLoad = function () {
     SEARCHICON.bindSearchIcon();
     IMAGECROPPER.bindImageCropper();
     GOOLEMAP.bindGoogleMap();
+    
     
  
 };

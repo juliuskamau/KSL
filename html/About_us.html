@@ -116,7 +116,7 @@
                     </div><!---small-12 medium-12 large-12 cell-->
                 </div>
             </div><!---grid-container.wrapper-main -->
-            <div class="breadcrumbs_wrapper">
+            <div class="breadcrumbs_wrapper margin-bottom-20">
                 <div class="grid-container">
                     <div class="grid-x grid-padding-x">
                         <div class="small-12 medium-12 large-12 cell">
@@ -134,73 +134,409 @@
                 </div><!---grid-container-->
             </div>
             <div class="grid-container">
-                <div class="grid-x grid-padding-x">
-                    <div class="small-12 medium-3 large-3 cell"data-anijs="if: scroll, on: window, do: fadeInUp animated, before: scrollReveal">
-                        <ul class="vertical menu side-bar">
-                            <li>
-                                <a class="active" href="#">History</a>
-                            </li>
-                            <li>
-                                <a href="#">Board of Directors</a>
-                            </li>
-                            <li>
-                                <a href="#">Our Team</a>
-                            </li>
-                            <li>
-                                <a href="#">Milestones</a>
-                            </li>
-                        </ul>
-                    </div><!---small-12 medium-3 large-3 cell"-->
+                <div class="grid-x grid-padding-x wrap_tabs_accordion">
+                    <div class="small-12 medium-3 large-3 cell"  data-anijs="if: scroll, on: window, do: fadeInLeft animated, before: scrollReveal">
+                        <div data-accordion-menu class="accordion-menu side-bar">
+                        <ul class="vertical tabs menu" data-tabs id="example-tabs">
+                                <li class="tabs-title is-active">
+                                    <a href="#panel1v" aria-selected="true" class="HorizontalTab">History</a>
+                                   
+                                
+                                </li>
+                                <li class="tabs-title"><a href="#panel2v" class="HorizontalTab">Board of Directors</a></li>
+                                <li class="tabs-title"><a href="#panel3v" class="HorizontalTab">Our Team</a></li>
+                                <li class="tabs-title"><a href="#panel4v" class="HorizontalTab">Milestones</a></li>
+                              </ul>
+                            </div>
+                        
+                                                    </div><!---small-12 medium-3 large-3 cell"-->
                     <div class="small-12 medium-9 large-9 cell">
-                        <div class="inner-banner" data-anijs="if: scroll, on: window, do: fadeInUp animated, before: scrollReveal">
-                            <img alt="Space" class="orbit-image" src=
-                        "https://placehold.it/1200x350/CCCCCC?text=Slide-1"></div>
-                        <div class="content">
-                            <div class="grid-x grid-padding-x">
-                                <div class="small-12 medium-7 large-7 cell" data-anijs="if: scroll, on: window, do: fadeInLeft animated, before: scrollReveal">
-                                    <h1>Our History</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                                    aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-                                    nostrud exerci tation ullamcorper suscipit lobortis nisl ut
-                                    aliquip ex ea commodo consequat.<br>
-                                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit
-                                    esse molestie consequat, vel illum dolore eu feugiat nulla
-                                    facilisis at vero eros et accumsan et iusto odio dignissim qui
-                                    blandit praesent luptatum zzril delenit augue duis dolore te
-                                    feugait nulla facilisi. Lorem ipsum dolor sit amet, cons
-                                    ectetuer adipiscing elit, sed diam nonummy nibh euismod
-                                    tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
-                                    wisi enim ad minim veniam, quis nostrud exerci tation
-                                    ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-                                    consequat.<br>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                                    aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-                                    nostrud exerci tation ullamcorper suscipit lobortis nisl ut
-                                    aliquip ex ea commodo consequat. Duis autem vel eum iriure
-                                    dolor in hendrerit in vulputate velunt ut laoreet dolore magna
-                                    aliquam erat volutpat.<br>
-                                    Ut wisi eniullamcorper t ut laoreet dolore magna aliquam erat
-                                    volutpat. Ut wisi eniullamcorper t ut laoreet dolore magna
-                                    aliquam erat volutpat. Ut wisi eniullamcorper t ut laoreet
-                                    dolore magna aliquam erat volutpat. Ut wisi eniullamcorper</p>
-                                </div><!---small-12 medium-7 large-7 cell"-->
-                                <div class="small-12 medium-5 large-5 cell" data-anijs="if: scroll, on: window, do: fadeInRight animated, before: scrollReveal">
-                                    <h1>Make an enquiry</h1>
-                                    <div class="form-side-bar">
-                                        <input placeholder="What is your name?" type="text">
-                                        <input placeholder="What is your email address?" type=
-                                        "text"> <input placeholder="What is your mobile number?"
-                                        type="text"> <input placeholder="Where are you located?"
-                                        type="text"> 
-                                        <textarea placeholder="Leave us a message"></textarea>
-                                        <input class="button full_width" type="submit" value=
-                                        "SUBMIT QUERY">
+
+
+
+
+                        <div class="tabs-content" data-tabs-content="example-tabs">
+                            <div class="tabs-panel is-active" id="panel1v">
+                                <div class="inner-banner" data-anijs="if: scroll, on: window, do: fadeInUp animated, before: scrollReveal">
+                                    <img alt="Space" class="orbit-image" src=
+                                "https://placehold.it/1200x350/CCCCCC?text=Slide-1"></div>        
+                                    
+
+                                <div class="content">
+                                    <div class="grid-x grid-padding-x">
+                                        <div class="small-12 medium-7 large-7 cell" data-anijs="if: scroll, on: window, do: fadeInLeft animated, before: scrollReveal">
+                                            <h1>Our History</h1>
+                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                            sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                                            aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+                                            nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                                            aliquip ex ea commodo consequat.<br>
+                                            Duis autem vel eum iriure dolor in hendrerit in vulputate velit
+                                            esse molestie consequat, vel illum dolore eu feugiat nulla
+                                            facilisis at vero eros et accumsan et iusto odio dignissim qui
+                                            blandit praesent luptatum zzril delenit augue duis dolore te
+                                            feugait nulla facilisi. Lorem ipsum dolor sit amet, cons
+                                            ectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                            tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
+                                            wisi enim ad minim veniam, quis nostrud exerci tation
+                                            ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                                            consequat.<br>
+                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                            diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                                            aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+                                            nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                                            aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                                            dolor in hendrerit in vulputate velunt ut laoreet dolore magna
+                                            aliquam erat volutpat.<br>
+                                            Ut wisi eniullamcorper t ut laoreet dolore magna aliquam erat
+                                            volutpat. Ut wisi eniullamcorper t ut laoreet dolore magna
+                                            aliquam erat volutpat. Ut wisi eniullamcorper t ut laoreet
+                                            dolore magna aliquam erat volutpat. Ut wisi eniullamcorper</p>
+                                        </div><!---small-12 medium-7 large-7 cell"-->
+                                        <div class="small-12 medium-5 large-5 cell" data-anijs="if: scroll, on: window, do: fadeInRight animated, before: scrollReveal">
+                                            <h1>Make an enquiry</h1>
+                                            <div class="form-side-bar">
+                                                <input placeholder="What is your name?" type="text">
+                                                <input placeholder="What is your email address?" type=
+                                                "text"> <input placeholder="What is your mobile number?"
+                                                type="text"> <input placeholder="Where are you located?"
+                                                type="text"> 
+                                                <textarea placeholder="Leave us a message"></textarea>
+                                                <input class="button full_width" type="submit" value=
+                                                "SUBMIT QUERY">
+                                            </div>
+                                        </div><!---small-12 medium-5 large-5 cell"-->
+                                    </div><!-- grid-x grid-padding-x-->
+                                </div>
+                                      
+                                     
+                                      
+                                   
+                                
+                           </div>
+                            <div class="tabs-panel" id="panel2v">
+                   
+                                <h1 class="profile_title">
+                                    Board of Directors
+                                </h1>
+                                
+                                <div class="grid-x grid-padding-x wrapper_images" >
+                                    <div class="small-12 medium-3 large-3 cell">
+                                
+                                        
+                                      
+                                        <div class="profile_wrapper">
+                                      <figure class="cap-bot">
+                                                
+                                                  <img alt="co-op" src="../images/profile.png">
+                                                  <figcaption>
+                                                    
+                                                  <h1>
+                                                      CHARLES WASHIKA
+                                                  </h1>
+                                                    
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation 
+                                                    </p>
+                                                    <button class="button" data-toggle="drop001">
+                                                        Read More	
+                                                    </button>
+                                
+                                                  
+                                                  </figcaption>			
+                                                </figure>
+                                              </div>
+                                              <div class="dropdown-pane profile_info" id="drop001" data-dropdown data-auto-focus="true">
+                                                  <h1>CHARLES WASHIKA</h1>	
+                                                  
+                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse. 
+                                                  
+                                                  Molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                                                <p>
+                                                  <div class="hello"></div>
+                                                </div>
+                                
+                                      </div>
+                                      <div class="small-12 medium-3 large-3 cell">
+                                          <div class="profile_wrapper">
+                                              <figure class="cap-bot">
+                                                        
+                                                          <img alt="co-op" src="../images/profile.png">
+                                                          <figcaption>
+                                                            
+                                                          <h1>
+                                                              CHARLES WASHIKA
+                                                          </h1>
+                                                            
+                                                            <p>
+                                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation 
+                                                            </p>
+                                                            <button class="button" data-toggle="drop002">
+                                                                Read More	
+                                                            </button>
+                                                          
+                                                          
+                                                          </figcaption>			
+                                                        </figure>
+                                                      </div>
+                                
+                                                      <div class="dropdown-pane profile_info" id="drop002" data-dropdown data-auto-focus="true">
+                                                        <h1>CHARLES WASHIKA</h1>	
+                                                          
+                                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse. 
+                                                          
+                                                          Molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                                                        <p>
+                                                        </div>
+                                      </div>
+                                      <div class="small-12 medium-3 large-3 cell">
+                                          <div class="profile_wrapper">
+                                              <figure class="cap-bot">
+                                                        
+                                                          <img alt="co-op" src="../images/profile.png">
+                                                          <figcaption>
+                                                            
+                                                          <h1>
+                                                              CHARLES WASHIKA
+                                                          </h1>
+                                                            
+                                                            <p>
+                                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation 
+                                                            </p>
+                                                            <button class="button" data-toggle="drop003">
+                                                                Read More	
+                                                            </button>
+                                                          
+                                                          
+                                                          </figcaption>			
+                                                        </figure>
+                                
+                                                      </div>
+                                                      <div class="dropdown-pane profile_info" id="drop003" data-dropdown data-auto-focus="true">
+                                                          <h1>CHARLES WASHIKA</h1>	
+                                                            
+                                                          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse. 
+                                                            
+                                                            Molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                                                          <p>
+                                                          </div>
+                                
+                                      </div>
+                                      <div class="small-12 medium-3 large-3 cell">
+                                          <div class="profile_wrapper">
+                                              <figure class="cap-bot">
+                                                        
+                                                          <img alt="co-op" src="../images/profile.png">
+                                                          <figcaption>
+                                                            
+                                                          <h1>
+                                                              CHARLES WASHIKA
+                                                          </h1>
+                                                            
+                                                            <p>
+                                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation 
+                                                            </p>
+                                                            <button class="button"data-toggle="drop004" >
+                                                                Read More	
+                                                            </button>
+                                                          
+                                                          
+                                                          </figcaption>			
+                                                        </figure>
+                                                      </div>
+                                                      <div class="dropdown-pane profile_info" id="drop004" data-dropdown data-auto-focus="true">
+                                                          <h1>CHARLES WASHIKA</h1>	
+                                                            
+                                                          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse. 
+                                                            
+                                                            Molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                                                          <p>
+                                                          </div>
+                                
+                                      </div>
+                                
+                                    <div class="small-12 medium-3 large-3 cell">
+                                      <div class="profile_wrapper">
+                                    <figure class="cap-bot">
+                                              
+                                                <img alt="co-op" src="../images/profile.png">
+                                                <figcaption>
+                                                  
+                                                <h1>
+                                                    CHARLES WASHIKA
+                                                </h1>
+                                                  
+                                                  <p>
+                                                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation 
+                                                  </p>
+                                                  <button class="button" data-toggle="drop005">
+                                                      Read More	
+                                                  </button>
+                                                
+                                                
+                                                </figcaption>			
+                                              </figure>
+                                            </div>
+                                
+                                            <div class="dropdown-pane profile_info" id="drop005" data-dropdown data-auto-focus="true">
+                                                <h1>CHARLES WASHIKA</h1>	
+                                                  
+                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse. 
+                                                  
+                                                  Molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                                                <p>
+                                                </div>
+                                
                                     </div>
-                                </div><!---small-12 medium-5 large-5 cell"-->
-                            </div><!-- grid-x grid-padding-x-->
-                        </div>
+                                    <div class="small-12 medium-3 large-3 cell">
+                                        <div class="profile_wrapper">
+                                            <figure class="cap-bot">
+                                                      
+                                                        <img alt="co-op" src="../images/profile.png">
+                                                        <figcaption>
+                                                          
+                                                        <h1>
+                                                            CHARLES WASHIKA
+                                                        </h1>
+                                                          
+                                                          <p>
+                                                              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation 
+                                                          </p>
+                                                          <button class="button" data-toggle="drop006">
+                                                              Read More	
+                                                          </button>
+                                                        
+                                                        
+                                                        </figcaption>			
+                                                      </figure>
+                                                    </div>
+                                
+                                                    <div class="dropdown-pane profile_info" id="drop006" data-dropdown data-auto-focus="true">
+                                                        <h1>CHARLES WASHIKA</h1>	
+                                                          
+                                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse. 
+                                                          
+                                                          Molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                                                        <p>
+                                                        </div>
+                                
+                                    </div>
+                                    <div class="small-12 medium-3 large-3 cell">
+                                        <div class="profile_wrapper">
+                                            <figure class="cap-bot">
+                                                      
+                                                        <img alt="co-op" src="../images/profile.png">
+                                                        <figcaption>
+                                                          
+                                                        <h1>
+                                                            CHARLES WASHIKA
+                                                        </h1>
+                                                          
+                                                          <p>
+                                                              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation 
+                                                          </p>
+                                                          <button class="button" data-toggle="drop007">
+                                                              Read More	
+                                                          </button>
+                                                        
+                                                        
+                                                        </figcaption>			
+                                                      </figure>
+                                                    </div>
+                                                    <div class="dropdown-pane profile_info" id="drop007" data-dropdown data-auto-focus="true">
+                                                        <h1>CHARLES WASHIKA</h1>	
+                                                          
+                                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse. 
+                                                          
+                                                          Molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                                                        <p>
+                                                        </div>
+                                
+                                
+                                    </div>
+                                    <div class="small-12 medium-3 large-3 cell">
+                                        <div class="profile_wrapper">
+                                            <figure class="cap-bot">
+                                                      
+                                                        <img alt="co-op" src="../images/profile.png">
+                                                        <figcaption>
+                                                          
+                                                        <h1>
+                                                            CHARLES WASHIKA
+                                                        </h1>
+                                                          
+                                                          <p>
+                                                              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation 
+                                                          </p>
+                                                          <button class="button" data-toggle="drop008">
+                                                              Read More	
+                                                          </button>
+                                                        
+                                                        
+                                                        </figcaption>			
+                                                      </figure>
+                                                    </div>
+                                                    <div class="dropdown-pane profile_info" id="drop008" data-dropdown data-auto-focus="true">
+                                                        <h1>CHARLES WASHIKA</h1>	
+                                                          
+                                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse. 
+                                                          
+                                                          Molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                                                        <p>
+                                                        </div>
+                                
+                                    </div>
+                                    <div id="profile"></div>
+                                    </div>
+                                        
+
+
+
+
+                            </div>
+                            <div class="tabs-panel" id="panel3v">
+                              <p>tab Three</p>
+                              <p>Check me out! I'm a super cool Tab panel with text content!</p>
+                              <div id="profile"></div>
+                            </div>
+                            <div class="tabs-panel" id="panel4v">
+                              <p>tab Four</p>
+                              <p>Check me out! I'm a super cool Tab panel with text content!</p>
+                              <div id="profile"></div>
+                            </div>
+        
+                     
+                          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                     </div><!---small-12 medium-9 large-9 cell"-->
                 </div><!-- grid-x grid-padding-x-->
             </div><!---grid-container-->
@@ -423,21 +759,26 @@
                   </footer>
         </div>
     </div><!--- off-canvas-wrapper -->
-    <!--
+    <div id="loader-wrapper">
+        <video autoplay="" muted="true" loop="true" preload="auto" id="bgv_qxIuK1" src="../images/StockMarket Animation.mp4">
+        </video>	
+        <div class="pattern"></div>				
+        
+          
+              <div class="wrap_loader">
+                  <img alt="co-op" src="../images/loader_image.png">
     
+                  <div class="gears">
+                      <img src="../images/big-gear_ap8wv1.png" alt="gear" class="big">
+                       
+                      <img src="../images/small-gear_zrimlb.png" alt="gear" class="small">
+                      <p>LOADING...</p>
+                     </div>
     
-            <div id="loader-wrapper">
-                    <div class="loader">
-                            <img alt="co-op" src="images/loader.png">
-                            <div class="text-container">
-                                    <h1>The best is yet to come</h1>
-                                    <h2 class="happy">Happy Holidays</h2>
-                            </div>
-                            <div class="snake">
-                                    <span></span> <span></span> <span></span> <span></span> <span></span>
-                            </div>
-                    </div>
-            </div>-->
+              </div>
+    
+          
+          </div>
     <script src="../js/vendor/jquery.js">
     </script> 
     <script src="../js/vendor/fontawesome.js">
@@ -452,5 +793,7 @@
     </script>
     <script src="../js/app.js">
     </script>
+
+
 </body>
 </html>
